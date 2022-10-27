@@ -1,13 +1,13 @@
 {
-  "name": "@react-amap2/utils",
+  "name": "@react-amap/utils",
   "version": "0.1.0",
-  "description": "common utilities",
+  "description": "common utilities for other packages of @react-amap",
   "homepage": "",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fsjohnhuang/react-amap2.git"
+    "url": "https://github.com/fsjohnhuang/react-amap.git"
   }, 
   "author": "John Huang <fsjohnhuang@hotmail.com>",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "esm"
   ],
   "keywords": [
-    "react-amap2",
+    "react-amap",
     "utils",
     "amap",
     "map",
@@ -28,5 +28,9 @@
   ],
   "scripts": {
     "test": "jest"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.org/"
   }
 }

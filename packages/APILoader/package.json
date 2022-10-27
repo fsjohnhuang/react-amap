@@ -1,6 +1,7 @@
 {
   "name": "@react-amap2/api-loader",
   "version": "0.1.0",
+  "private": true,
   "description": "React component for AMap resources loading",
   "homepage": "",
   "main": "cjs/index.js",

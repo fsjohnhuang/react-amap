@@ -2,6 +2,7 @@
   "name": "@react-amap2/script-loader",
   "version": "0.1.0",
   "description": "React component for importing raw JavaScript resources",
+  "private": true,
   "homepage": "",
   "main": "cjs/index.js",
   "module": "esm/index.js",

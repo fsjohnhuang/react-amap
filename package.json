@@ -1,15 +1,15 @@
 {
-  "name": "react-amap2",
+  "name": "react-amap",
   "private": true,
   "scripts": {
     "prepare": "husky install",
-    "lerna": "lerna",
     "build": "lerna exec \"tsbb build\"",
     "clear": "lerna exec \"rimraf esm cjs\"",
-    "watch:require-script": "lerna exec \"tsbb watch\" --scope @react-amap2/require-script",
-    "watch:utils": "lerna exec \"tsbb watch\" --scope @react-amap2/utils",
-    "watch:script-loader": "lerna exec \"tsbb watch\" --scope @react-amap2/script-loader",
-    "watch:api-loader": "lerna exec \"tsbb watch\" --scope @react-amap2/api-loader"
+    "test": "lerna run test",
+    "watch:require-script": "lerna exec \"tsbb watch\" --scope @react-amap/require-script",
+    "watch:utils": "lerna exec \"tsbb watch\" --scope @react-amap/utils",
+    "watch:script-loader": "lerna exec \"tsbb watch\" --scope @react-amap/script-loader",
+    "watch:api-loader": "lerna exec \"tsbb watch\" --scope @react-amap/api-loader"
   },
   "devDependencies": {
     "husky": "^8.0.1",

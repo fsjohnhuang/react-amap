@@ -1,6 +1,7 @@
 {
   "name": "@react-amap2/require-script",
   "version": "0.1.0",
+  "private": true,
   "description": "tool for importing raw JavaScript resources",
   "homepage": "",
   "main": "cjs/index.js",
