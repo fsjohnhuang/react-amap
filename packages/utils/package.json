@@ -1,0 +1,32 @@
+{
+  "name": "@react-amap2/utils",
+  "version": "0.1.0",
+  "description": "common utilities",
+  "homepage": "",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsjohnhuang/react-amap2.git"
+  }, 
+  "author": "John Huang <fsjohnhuang@hotmail.com>",
+  "license": "MIT",
+  "files": [
+    "src",
+    "cjs",
+    "esm"
+  ],
+  "keywords": [
+    "react-amap2",
+    "utils",
+    "amap",
+    "map",
+    "react",
+    "高德",
+    "地图",
+    "高德地图"
+  ],
+  "scripts": {
+    "test": "jest"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@react-amap2/require-script",
+  "version": "0.1.0",
+  "description": "tool for importing raw JavaScript resources",
+  "homepage": "",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsjohnhuang/react-amap2.git"
+  }, 
+  "author": "John Huang <fsjohnhuang@hotmail.com>",
+  "license": "MIT",
+  "files": [
+    "src",
+    "cjs",
+    "esm"
+  ],
+  "keywords": [
+    "react-amap2",
+    "require-script",
+    "amap",
+    "map",
+    "react",
+    "高德",
+    "地图",
+    "高德地图"
+  ],
+  "dependencies": {
+    "@react-amap2/utils": "*"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  }
+}
